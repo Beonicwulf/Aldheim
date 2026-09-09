@@ -15,7 +15,7 @@ h1 {
 	height: 100%;
 	background-size: cover;
 	background-position: center;
-	z-index: 0;
+	z-index: -1;
 	background-image: url("thor.jpg");
 }
 
@@ -34,7 +34,7 @@ h1 {
 }
 
 .paragraph {
-	flex: 1 1 300px;
+	flex: 1 1 200px;
 	background-image: linear-gradient(135deg, #5A4A78B0, #2E3A44);
 	background-attachment: fixed;
 	background-size: cover;
@@ -58,7 +58,7 @@ h1 {
 }
 
 p {
-	font-size: 150%;
+	font-size: 100%;
 	color: blanchedalmond;
 	padding: 1.2rem;
 	margin-left: 2%;
@@ -66,7 +66,7 @@ p {
 }
 
 .quote {
-	font-size: 120%;
+	font-size: 80%;
 	background-color: darkslategray;
 	color: blanchedalmond;
 }
